@@ -1,0 +1,410 @@
+/* Default Styles */
+* {
+	box-sizing: border-box;
+}
+
+/* Navigation & Jumbotron */
+
+.navbar-brand > div {
+	color: #fff;
+	font-size: 2em;
+	font-family: "Raleway", sans-serif;
+}
+
+.navbar-nav > .nav-item {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+
+#introduction {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	padding: 0;
+}
+
+#introduction video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+}
+
+#introduction .container {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	color: white;
+}
+
+#introduction hr {
+	border-color: white;
+}
+
+#navigation-bar {
+	height: 10vh;
+}
+
+#jumbotron-container {
+	width: 80%;
+}
+
+#introduction-text-1 {
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+	font-size: 1.5em;
+	font-weight: 500;
+	color: #5ca9ff;
+}
+
+#introduction-text-2 {
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-size: 6em;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+#introduction-text-3 {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+#introduction-text-2 hr {
+	background-color: #ffffff;
+}
+
+/* About Me */
+#about-me-section {
+	padding: 25px 0px 25px 0px;
+	background-color: #ffffff;
+}
+
+#section-heading {
+	padding: 0px 0px 15px 0px;
+	font-size: 3em;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	display: block;
+}
+
+.about-me-paragraph,
+.experience-items {
+	width: 70%;
+	height: auto;
+	margin: auto;
+	font-size: 1.2em;
+	font-weight: 350;
+	font-family: "Roboto", sans-serif;
+}
+
+/* Experience */
+#experience-section {
+	background-color: #ffffff;
+	padding: 25px 0px 25px 0px;
+}
+
+.experience-items {
+	width: 70%;
+	height: auto;
+	margin: auto;
+	font-family: "Roboto", sans-serif;
+}
+
+.position {
+	color: #000000;
+	font-size: 1.15em;
+	font-weight: bold;
+}
+
+.company {
+	color: #5ca9ff;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+/* Skills */
+
+#skills-section {
+	margin: 20px 0px 20px 0px;
+	padding: 40px 0px 40px 0px;
+	box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#skills {
+	width: 80%;
+}
+
+.skill-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.skill-logo img {
+	width: 60%;
+	height: auto;
+	object-fit: contain;
+	border-radius: 10px;
+	max-width: 100px;
+	max-height: 100px;
+	aspect-ratio: 1 / 1;
+}
+
+/* Projects */
+
+#myCarousel {
+    height: 60vh;
+    background-color: #ffffff;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: 350;
+	font-family: "Roboto", sans-serif;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D"http%3A//www.w3.org/2000/svg" fill%3D"%23000" viewBox%3D"0 0 8 8"%3E%3Cpath d%3D"M4.146 4l2.647-2.646-.707-.707L2.732 4l3.354 3.354.707-.707L4.146 4z"/%3E%3C/svg%3E');
+}
+
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D"http%3A//www.w3.org/2000/svg" fill%3D"%23000" viewBox%3D"0 0 8 8"%3E%3Cpath d%3D"M3.854 4L1.207 6.646l.707.707L5.268 4 1.914.646l-.707.707L3.854 4z"/%3E%3C/svg%3E');
+}
+
+.carousel-inner {
+	width: 70%;
+	padding: 40px;
+	margin: auto;
+}
+
+.project-item-header, .project-item-company {
+	color: #000000;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.project-item-company {
+	color: #5ca9ff;
+}
+
+.project-item-period, .project-item-skills {
+	font-size: 0.75em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.project-item-description {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1em;
+}
+
+/* Media Queries */
+
+/* Mobile Devices (up to 480px) */
+@media screen and (max-width: 480px) {
+	#introduction-text-1 {
+		font-size: 1.2em;
+	}
+
+	#introduction-text-2 {
+		font-size: 3em;
+	}
+
+	#introduction-text-3 {
+		font-size: 1.2em;
+	}
+
+	#jumbotron-container {
+		width: 90%;
+	}
+
+	.about-me-paragraph,
+	.experience-items {
+		width: 90%;
+		font-size: 1em;
+	}
+
+	.col-xxs-6 {
+		flex: 0 0 50%;
+		/* 6 out of 12 columns */
+		max-width: 50%;
+		/* 6 out of 12 columns */
+	}
+
+	.skill-logo img {
+		width: 30%;
+		/* Adjusted width for smaller screens */
+	}
+}
+
+/* Small Devices (481px to 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	#introduction-text-1 {
+		font-size: 1.4em;
+	}
+
+	#introduction-text-2 {
+		font-size: 4em;
+	}
+
+	#introduction-text-3 {
+		font-size: 1.4em;
+	}
+
+	#jumbotron-container {
+		width: 85%;
+	}
+
+	.about-me-paragraph,
+	.experience-items {
+		width: 80%;
+		font-size: 1.1em;
+	}
+
+	.skill-logo img {
+		width: 30%;
+		/* Adjusted width for small screens */
+	}
+}
+
+/* Medium Devices (769px to 992px) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+	#introduction-text-1 {
+		font-size: 1.6em;
+	}
+
+	#introduction-text-2 {
+		font-size: 5em;
+	}
+
+	#introduction-text-3 {
+		font-size: 1.6em;
+	}
+
+	#jumbotron-container {
+		width: 80%;
+	}
+
+	.about-me-paragraph,
+	.experience-items {
+		width: 75%;
+		font-size: 1.2em;
+	}
+
+	.skill-logo img {
+		width: 40%;
+		/* Adjusted width for medium screens */
+	}
+}
+
+/* Large Devices (992px and above) */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	#introduction-text-1 {
+		font-size: 1.8em;
+	}
+
+	#introduction-text-2 {
+		font-size: 6em;
+	}
+
+	#introduction-text-3 {
+		font-size: 1.8em;
+	}
+
+	#jumbotron-container {
+		width: 75%;
+	}
+
+	.about-me-paragraph,
+	.experience-items {
+		width: 70%;
+		font-size: 1.2em;
+	}
+
+	.skill-logo img {
+		width: 55%;
+		/* Adjusted width for large screens */
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+	#introduction-text-1 {
+		font-size: 2em;
+	}
+
+	#introduction-text-2 {
+		font-size: 6em;
+	}
+
+	#introduction-text-3 {
+		font-size: 2em;
+	}
+
+	#jumbotron-container {
+		width: 80%;
+	}
+
+	.about-me-paragraph,
+	.experience-items {
+		width: 70%;
+		font-size: 1.25em;
+	}
+
+	.skill-logo img {
+		width: 40%;
+		/* Adjusted width for large screens */
+	}
+
+	.project-item-header, .project-item-company {
+		font-size: 1.25em;
+		font-weight: bold;
+	}
+	
+	.project-item-period, .project-item-skills {
+		font-size: 0.7em;
+	}
+	
+	.project-item-description {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 0.85em;
+	}
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+	.project-item-header, .project-item-company {
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+	
+	.project-item-period, .project-item-skills {
+		font-size: 0.75em;
+	}
+	
+	.project-item-description {
+		font-size: 0.9em;
+	}
+}
